@@ -1,0 +1,39 @@
+:root{
+    --blue: #313169;
+    --gray: #494848;
+    --red:#8B0000;
+    --yellow:#FFD700;
+
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    align-items: center;
+}
+body{
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--gray);
+    text-align: center;
+    color: white;
+
+}
+.menu>div{
+    font-size: 1.5rem;
+    background-color: var(--blue);
+    align-content: center;
+    text-align: center;
+    border: solid 5px #26268b;
+    border-radius: 30px;
+    width: 200px;
+   
+}
+button{
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: solid  3px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(145, 138, 138);
+
+}

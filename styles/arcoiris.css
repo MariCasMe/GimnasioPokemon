@@ -1,0 +1,9 @@
+div{
+    text-align: justify;
+
+}
+.listas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+}

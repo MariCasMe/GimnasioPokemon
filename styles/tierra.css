@@ -1,0 +1,10 @@
+.encabezado{
+    text-align: justify;
+}
+table, td,th{
+    border: solid 5px ;
+    border-color: rgb(16, 16, 53);
+}
+img{
+    width: 300px;
+}
